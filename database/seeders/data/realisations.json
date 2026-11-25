@@ -1,0 +1,326 @@
+[
+    {
+        "slug": "app-de-livraison-quickfood-ci",
+        "title": "App de Livraison - QuickFood CI",
+        "type": "application-mobile",
+        "client": "QuickFood CI",
+        "description": "Application mobile de livraison de repas connectant restaurants et clients avec système de géolocalisation et paiement intégré.",
+        "features": [
+            "Commandes en ligne",
+            "Suivi livraison temps réel",
+            "Paiement mobile",
+            "Évaluation restaurants",
+            "Système de points",
+            "Notifications push",
+            "Gestion des livreurs",
+            "Analytics avancés"
+        ],
+        "technologies": [
+            "React Native",
+            "Node.js",
+            "MongoDB",
+            "Google Maps",
+            "Stripe"
+        ],
+        "completed_at": "2023-09-01",
+        "duration": "4 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "app-mobile-transport-abidjan",
+        "title": "App Mobile - Transport Abidjan",
+        "type": "application-mobile",
+        "client": "Transport Abidjan",
+        "description": "Application mobile pour la réservation et le suivi de transports en commun à Abidjan. Solution complète de mobilité urbaine avec géolocalisation en temps réel.",
+        "features": [
+            "Réservation en temps réel",
+            "Suivi GPS",
+            "Paiement mobile",
+            "Notifications push",
+            "Historique des trajets",
+            "Planification d'itinéraires",
+            "Alertes trafic",
+            "Système de points fidélité"
+        ],
+        "technologies": [
+            "React Native",
+            "Node.js",
+            "MongoDB",
+            "Google Maps API",
+            "Firebase"
+        ],
+        "completed_at": "2024-02-01",
+        "duration": "5 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "controle-dacces-entreprise-orange-ci",
+        "title": "Contrôle d'Accès Entreprise - Orange CI",
+        "type": "systeme-controle-acces",
+        "client": "Orange Côte d'Ivoire",
+        "description": "Système de contrôle d'accès pour les bureaux d'Orange CI avec badges employés, gestion des visiteurs et surveillance des zones sensibles.",
+        "features": [
+            "Badges employés",
+            "Gestion des visiteurs",
+            "Zones d'accès restreintes",
+            "Surveillance 24/7",
+            "Rapports de sécurité",
+            "Intégration RH",
+            "Alertes automatiques",
+            "Gestion des parkings"
+        ],
+        "technologies": [
+            "Python",
+            "Django",
+            "PostgreSQL",
+            "RFID",
+            "CCTV"
+        ],
+        "completed_at": "2023-11-01",
+        "duration": "5 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "controle-dacces-stade-felix-houphouet-boigny",
+        "title": "Contrôle d'Accès - Stade Félix Houphouët-Boigny",
+        "type": "systeme-controle-acces",
+        "client": "Stade FHB",
+        "description": "Système de contrôle d'accès avec badges RFID pour les événements sportifs au stade FHB. Solution sécurisée pour la gestion des entrées et la surveillance des événements.",
+        "features": [
+            "Badges RFID",
+            "Contrôle d'accès en temps réel",
+            "Gestion des événements",
+            "Rapports de fréquentation",
+            "Interface de sécurité",
+            "Caméras de surveillance",
+            "Alertes automatiques",
+            "Gestion des VIP"
+        ],
+        "technologies": [
+            "Python",
+            "Django",
+            "PostgreSQL",
+            "RFID",
+            "OpenCV"
+        ],
+        "completed_at": "2023-10-01",
+        "duration": "6 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "gestion-scolaire-lycee-moderne",
+        "title": "Gestion Scolaire - Lycée Moderne",
+        "type": "plateforme-web",
+        "client": "Lycée Moderne d'Abidjan",
+        "description": "Plateforme web de gestion scolaire incluant notes, emplois du temps et communication parents-école. Solution éducative complète pour moderniser l'administration scolaire.",
+        "features": [
+            "Gestion des notes",
+            "Emplois du temps",
+            "Communication parents-école",
+            "Bulletins de notes",
+            "Gestion des absences",
+            "Bibliothèque numérique",
+            "Cantine scolaire",
+            "Transport scolaire"
+        ],
+        "technologies": [
+            "Laravel",
+            "Bootstrap",
+            "MySQL",
+            "Email API",
+            "PDF Generator"
+        ],
+        "completed_at": "2024-01-01",
+        "duration": "4 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "plateforme-de-telemedecine-clinique-du-plateau",
+        "title": "Plateforme de Télémédecine - Clinique du Plateau",
+        "type": "plateforme-web",
+        "client": "Clinique du Plateau",
+        "description": "Solution de télémédecine permettant consultations à distance, gestion des dossiers patients et suivi médical avec intégration d'équipements médicaux.",
+        "features": [
+            "Consultations vidéo",
+            "Dossiers patients",
+            "Rendez-vous en ligne",
+            "Prescriptions électroniques",
+            "Historique médical",
+            "Intégration équipements",
+            "Sécurité RGPD",
+            "Rapports médicaux"
+        ],
+        "technologies": [
+            "Laravel",
+            "Vue.js",
+            "PostgreSQL",
+            "WebRTC",
+            "DICOM"
+        ],
+        "completed_at": "2024-03-01",
+        "duration": "6 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "plateforme-e-commerce-afrimarket",
+        "title": "Plateforme E-commerce - AfriMarket",
+        "type": "plateforme-web",
+        "client": "AfriMarket CI",
+        "description": "Création d'une plateforme e-commerce complète pour la vente de produits locaux en Côte d'Ivoire. Marketplace connectant producteurs et consommateurs avec système de livraison intégré.",
+        "features": [
+            "Catalogue produits",
+            "Panier d'achat",
+            "Paiement sécurisé",
+            "Gestion des commandes",
+            "Interface vendeur",
+            "Système de livraison",
+            "Gestion des stocks",
+            "Analytics avancés"
+        ],
+        "technologies": [
+            "Laravel",
+            "React",
+            "PostgreSQL",
+            "Stripe",
+            "Google Maps API"
+        ],
+        "completed_at": "2023-11-01",
+        "duration": "4 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "reseau-dentreprise-ministere-des-tic",
+        "title": "Réseau d'Entreprise - Ministère des TIC",
+        "type": "integration-reseau",
+        "client": "Ministère des TIC",
+        "description": "Intégration réseau complète pour le Ministère des TIC avec infrastructure sécurisée, serveurs et système de sauvegarde.",
+        "features": [
+            "Infrastructure réseau",
+            "Serveurs sécurisés",
+            "Système de sauvegarde",
+            "Monitoring 24/7",
+            "Gestion des utilisateurs",
+            "Sécurité avancée",
+            "Maintenance préventive",
+            "Support technique"
+        ],
+        "technologies": [
+            "Cisco",
+            "Linux",
+            "VMware",
+            "Backup Solutions",
+            "Monitoring Tools"
+        ],
+        "completed_at": "2023-06-01",
+        "duration": "7 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "systeme-de-billetterie-cinema-cine-abidjan",
+        "title": "Système de Billetterie Cinéma - Ciné Abidjan",
+        "type": "solution-billetterie",
+        "client": "Ciné Abidjan",
+        "description": "Solution de billetterie pour cinémas avec réservation de places, gestion des séances et système de fidélité intégré.",
+        "features": [
+            "Réservation de places",
+            "Gestion des séances",
+            "Système de fidélité",
+            "Paiement en ligne",
+            "Contrôle d'accès",
+            "Gestion des salles",
+            "Programmation films",
+            "Rapports de fréquentation"
+        ],
+        "technologies": [
+            "Laravel",
+            "Vue.js",
+            "MySQL",
+            "PayPal",
+            "QR Code"
+        ],
+        "completed_at": "2023-07-01",
+        "duration": "3 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "systeme-de-billetterie-festival-des-arts",
+        "title": "Système de Billetterie - Festival des Arts",
+        "type": "solution-billetterie",
+        "client": "Festival des Arts de Grand-Bassam",
+        "description": "Solution complète de billetterie électronique pour le festival annuel des arts de Grand-Bassam. Gestion intégrée des événements culturels avec contrôle d'accès sécurisé.",
+        "features": [
+            "Vente de billets en ligne",
+            "Gestion des événements",
+            "Contrôle d'accès",
+            "Rapports de vente",
+            "Interface administrateur",
+            "Gestion des artistes",
+            "Planification des salles",
+            "Système de remboursement"
+        ],
+        "technologies": [
+            "Laravel",
+            "Vue.js",
+            "MySQL",
+            "PayPal",
+            "QR Code API"
+        ],
+        "completed_at": "2023-12-01",
+        "duration": "2 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "systeme-de-gestion-bancaire-banque-populaire",
+        "title": "Système de Gestion Bancaire - Banque Populaire",
+        "type": "logiciel-metier",
+        "client": "Banque Populaire CI",
+        "description": "Développement d'un système de gestion bancaire sécurisé pour les opérations courantes et la gestion des comptes clients avec interface web et mobile.",
+        "features": [
+            "Gestion des comptes",
+            "Virements électroniques",
+            "Paiements en ligne",
+            "Gestion des cartes",
+            "Rapports financiers",
+            "Sécurité avancée",
+            "Interface mobile",
+            "Support multi-devises"
+        ],
+        "technologies": [
+            "Laravel",
+            "React",
+            "PostgreSQL",
+            "Redis",
+            "SSL/TLS"
+        ],
+        "completed_at": "2023-08-01",
+        "duration": "8 mois",
+        "budget": "Confidentiel"
+    },
+    {
+        "slug": "systeme-de-gestion-hoteliere-hotel-ivoire",
+        "title": "Système de Gestion Hôtelière - Hôtel Ivoire",
+        "type": "logiciel-metier",
+        "client": "Hôtel Ivoire",
+        "description": "Développement d'un système complet de gestion hôtelière incluant réservations, facturation et gestion des chambres. Solution intégrée pour optimiser les opérations hôtelières avec interface intuitive et rapports détaillés.",
+        "features": [
+            "Gestion des réservations",
+            "Facturation automatique",
+            "Gestion des chambres",
+            "Rapports de performance",
+            "Interface multi-utilisateurs",
+            "Module de maintenance",
+            "Gestion des stocks",
+            "Intégration paiement"
+        ],
+        "technologies": [
+            "Laravel",
+            "Vue.js",
+            "MySQL",
+            "Redis",
+            "Stripe API"
+        ],
+        "completed_at": "2024-01-01",
+        "duration": "3 mois",
+        "budget": "Confidentiel"
+    }
+]

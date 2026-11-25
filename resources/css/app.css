@@ -1,0 +1,283 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+/*
+ * BWAN TECHNOLOGIES — design system « Apple raffiné »
+ * Typo système (SF Pro sur Apple, Inter ailleurs), beaucoup d'air, surfaces douces,
+ * et les quatre couleurs du logo en signature (dégradé, pastilles).
+ */
+@theme {
+    --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', ui-sans-serif, system-ui,
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+
+    --color-ink: #1d1d1f;
+    --color-muted: #6e6e73;
+    --color-subtle: #86868b;
+    --color-surface: #f5f5f7;
+    --color-night: #0b0b0d;
+
+    --color-brand: #2c6db3;
+    --color-brand-strong: #1f5592;
+    --color-brand-soft: #e9f1fa;
+
+    /* Couleurs du logo */
+    --color-sky: #3a7dbf;
+    --color-sun: #e2ad2b;
+    --color-leaf: #4f9f56;
+    --color-clay: #c05e3b;
+
+    --ease-apple: cubic-bezier(0.28, 0.11, 0.32, 1);
+}
+
+@layer base {
+    html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply bg-white text-ink;
+        letter-spacing: -0.011em;
+    }
+
+    ::selection {
+        background: color-mix(in srgb, var(--color-brand) 20%, transparent);
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--color-brand);
+        outline-offset: 3px;
+        border-radius: 8px;
+    }
+}
+
+@layer components {
+    /* Mise en page */
+    .wrap {
+        @apply mx-auto w-full max-w-[1120px] px-5 md:px-8;
+    }
+
+    .wrap-wide {
+        @apply mx-auto w-full max-w-[1320px] px-5 md:px-8;
+    }
+
+    .section {
+        @apply py-20 md:py-28;
+    }
+
+    /* Typographie */
+    .eyebrow {
+        @apply text-[15px] font-semibold tracking-[-0.01em] text-brand md:text-[17px];
+    }
+
+    .display {
+        @apply text-[40px] leading-[1.06] font-semibold tracking-[-0.03em] text-balance sm:text-[56px] lg:text-[76px];
+    }
+
+    .headline {
+        @apply text-[32px] leading-[1.1] font-semibold tracking-[-0.025em] text-balance md:text-[48px];
+    }
+
+    .title {
+        @apply text-[24px] leading-[1.15] font-semibold tracking-[-0.02em] md:text-[28px];
+    }
+
+    .lead {
+        @apply text-[19px] leading-[1.5] text-muted text-pretty md:text-[21px];
+    }
+
+    .meta {
+        @apply text-[13px] font-medium tracking-[0.01em] text-subtle;
+    }
+
+    .gradient-text {
+        background: linear-gradient(105deg, var(--color-sky) 0%, var(--color-leaf) 38%, var(--color-sun) 68%, var(--color-clay) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .gradient-text-light {
+        background: linear-gradient(105deg, #9cc6f2 0%, #a6dfab 38%, #f5d47e 68%, #f0a688 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    /* Liseré aux couleurs du logo */
+    .brand-bar {
+        background: linear-gradient(90deg, var(--color-sun) 0 25%, var(--color-leaf) 25% 50%, var(--color-sky) 50% 75%, var(--color-clay) 75% 100%);
+    }
+
+    /* Boutons & liens */
+    .btn {
+        @apply inline-flex items-center justify-center gap-2 rounded-full px-[22px] py-[11px] text-[17px] font-normal whitespace-nowrap transition duration-300;
+        transition-timing-function: var(--ease-apple);
+    }
+
+    .btn-sm {
+        @apply px-4 py-[7px] text-[14px];
+    }
+
+    .btn-primary {
+        @apply bg-brand text-white hover:bg-brand-strong active:scale-[.98];
+    }
+
+    .btn-secondary {
+        @apply text-brand ring-1 ring-brand ring-inset hover:bg-brand hover:text-white;
+    }
+
+    .btn-light {
+        @apply bg-white text-ink hover:bg-white/90 active:scale-[.98];
+    }
+
+    .link-more {
+        @apply inline-flex items-center gap-1 text-[17px] text-brand transition-colors hover:underline hover:underline-offset-4;
+    }
+
+    .link-more::after {
+        content: '\203A';
+        font-size: 1.25em;
+        line-height: 1;
+        transform: translateY(-0.04em);
+        transition: transform 0.3s var(--ease-apple);
+    }
+
+    .link-more:hover::after,
+    .group:hover .link-more::after {
+        transform: translate(3px, -0.04em);
+    }
+
+    .link-more-light {
+        @apply text-[#8cc0f0];
+    }
+
+    .back-link {
+        @apply inline-flex items-center gap-1 text-[15px] text-brand hover:underline hover:underline-offset-4;
+    }
+
+    .back-link::before {
+        content: '\2039';
+        font-size: 1.25em;
+        line-height: 1;
+    }
+
+    /* Surfaces */
+    .tile {
+        @apply relative overflow-hidden rounded-[28px] bg-surface;
+    }
+
+    .tile-dark {
+        @apply relative overflow-hidden rounded-[28px] bg-night text-white;
+    }
+
+    .card {
+        @apply relative overflow-hidden rounded-[24px] bg-white ring-1 ring-black/[.06];
+        box-shadow: 0 1px 2px rgb(0 0 0 / 0.03), 0 8px 24px rgb(0 0 0 / 0.04);
+        transition: transform 0.5s var(--ease-apple), box-shadow 0.5s var(--ease-apple);
+    }
+
+    a.card:hover,
+    .card-hover:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 2px 4px rgb(0 0 0 / 0.04), 0 24px 48px rgb(0 0 0 / 0.08);
+    }
+
+    .chip {
+        @apply inline-flex items-center rounded-full bg-white/90 px-3 py-1 text-[12px] font-medium text-ink backdrop-blur;
+    }
+
+    .chip-soft {
+        @apply inline-flex items-center rounded-full bg-surface px-3.5 py-1.5 text-[13px] font-medium text-ink;
+    }
+
+    .icon-badge {
+        @apply flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl;
+    }
+
+    .divider {
+        @apply h-px w-full bg-black/[.08];
+    }
+
+    /* Filtres en pastilles */
+    .pill {
+        @apply shrink-0 rounded-full bg-surface px-4 py-2 text-[14px] text-ink transition hover:bg-black/[.08];
+    }
+
+    .pill-active {
+        @apply shrink-0 rounded-full bg-ink px-4 py-2 text-[14px] text-white;
+    }
+
+    /* Formulaires */
+    .field-label {
+        @apply mb-2 block text-[13px] font-medium text-muted;
+    }
+
+    .field {
+        @apply w-full appearance-none rounded-xl bg-white px-4 py-3.5 text-[17px] text-ink ring-1 ring-black/[.12] transition outline-none ring-inset placeholder:text-subtle;
+    }
+
+    .field:hover {
+        @apply ring-black/25;
+    }
+
+    .field:focus {
+        @apply ring-2 ring-brand;
+    }
+
+    .field-error {
+        @apply ring-2 ring-[#d92d20];
+    }
+
+    select.field {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1.5 6 6.5l5-5' stroke='%2386868b' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 1rem center;
+        padding-right: 2.75rem;
+    }
+
+    .prose-apple {
+        @apply text-[19px] leading-[1.7] text-ink/85;
+    }
+}
+
+/* Barre de navigation : filet après défilement */
+[data-header].is-scrolled {
+    box-shadow: 0 1px 0 rgb(0 0 0 / 0.08);
+}
+
+/* Apparition au scroll — n'agit que si le JS est actif */
+@media (prefers-reduced-motion: no-preference) {
+    .js [data-reveal] {
+        opacity: 0;
+        transform: translateY(28px);
+        transition:
+            opacity 1s var(--ease-apple),
+            transform 1s var(--ease-apple);
+        transition-delay: var(--reveal-delay, 0ms);
+    }
+
+    .js [data-reveal].is-visible {
+        opacity: 1;
+        transform: none;
+    }
+
+    .hero-fade {
+        animation: hero-fade 1.2s var(--ease-apple) both;
+    }
+
+    @keyframes hero-fade {
+        from {
+            opacity: 0;
+            transform: translateY(16px);
+        }
+        to {
+            opacity: 1;
+            transform: none;
+        }
+    }
+}

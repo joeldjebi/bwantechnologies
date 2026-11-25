@@ -1,0 +1,47 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Domaine canonique : www.bwantechnologies.com et http:// redirigent en 301 vers
+    # https://bwantechnologies.com. Les validations SSL (AutoSSL / Let's Encrypt) passent.
+    # N'affecte pas localhost en développement.
+    RewriteCond %{REQUEST_URI} !^/\.well-known/
+    RewriteCond %{HTTP_HOST} ^www\.bwantechnologies\.com$ [NC]
+    RewriteRule ^ https://bwantechnologies.com%{REQUEST_URI} [L,R=301]
+
+    RewriteCond %{REQUEST_URI} !^/\.well-known/
+    RewriteCond %{HTTP_HOST} ^bwantechnologies\.com$ [NC]
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^ https://bwantechnologies.com%{REQUEST_URI} [L,R=301]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Handle X-XSRF-Token Header
+    RewriteCond %{HTTP:x-xsrf-token} .
+    RewriteRule .* - [E=HTTP_X_XSRF_TOKEN:%{HTTP:X-XSRF-Token}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# Production (cPanel / EasyApache) : ce bloc fixe PHP 8.3 pour le site.
+# Sans lui, Apache peut retomber sur PHP 8.2 et le site renvoie une erreur 500
+# (« Composer detected issues in your platform »). Ne pas supprimer.
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php83” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php83 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

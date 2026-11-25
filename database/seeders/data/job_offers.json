@@ -1,0 +1,58 @@
+[
+    {
+        "slug": "developpeur-full-stack",
+        "title": "Développeur Full Stack",
+        "contract_type": "cdi",
+        "location": "Grand-Bassam",
+        "department": "developpement",
+        "description": "Nous recherchons un développeur full stack passionné pour rejoindre notre équipe de développement.",
+        "salary": "500 000 - 800 000 FCFA",
+        "skills": [
+            "PHP",
+            "Laravel",
+            "Vue.js"
+        ]
+    },
+    {
+        "slug": "chef-de-projet-tic",
+        "title": "Chef de Projet TIC",
+        "contract_type": "cdi",
+        "location": "Grand-Bassam",
+        "department": "management",
+        "description": "Rejoignez notre équipe en tant que chef de projet pour piloter nos projets technologiques.",
+        "salary": "600 000 - 900 000 FCFA",
+        "skills": [
+            "Gestion de Projet",
+            "Agile",
+            "Communication"
+        ]
+    },
+    {
+        "slug": "ingenieur-reseau",
+        "title": "Ingénieur Réseau",
+        "contract_type": "cdi",
+        "location": "Grand-Bassam",
+        "department": "reseau",
+        "description": "Nous cherchons un ingénieur réseau pour gérer nos infrastructures et celles de nos clients.",
+        "salary": "550 000 - 750 000 FCFA",
+        "skills": [
+            "Cisco",
+            "Linux",
+            "Réseaux"
+        ]
+    },
+    {
+        "slug": "commercial-solutions-it",
+        "title": "Commercial Solutions IT",
+        "contract_type": "cdi",
+        "location": "Abidjan",
+        "department": "commercial",
+        "description": "Rejoignez notre équipe commerciale pour promouvoir nos solutions technologiques.",
+        "salary": "400 000 - 600 000 FCFA + Commission",
+        "skills": [
+            "Vente",
+            "Négociation",
+            "CRM"
+        ]
+    }
+]

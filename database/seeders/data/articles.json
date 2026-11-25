@@ -1,0 +1,120 @@
+[
+    {
+        "slug": "avenir-transformation-numerique-cote-ivoire",
+        "title": "L'avenir de la transformation numérique en Côte d'Ivoire",
+        "category": "transformation-numerique",
+        "published_at": "2025-10-04",
+        "excerpt": "Découvrez les tendances et opportunités de la transformation numérique en Côte d'Ivoire en 2024.",
+        "author_name": "Janvier Kouakou",
+        "content": "La transformation numérique en Côte d'Ivoire connaît une accélération remarquable. Avec l'adoption croissante des technologies digitales par les entreprises et les institutions, le pays se positionne comme un leader technologique en Afrique de l'Ouest. Cette transformation touche tous les secteurs : banque, santé, éducation, agriculture et services publics. Les investissements dans l'infrastructure numérique, la formation des talents locaux et l'innovation technologique créent un écosystème favorable au développement de solutions adaptées aux besoins locaux. BWAN TECHNOLOGIES participe activement à cette transformation en développant des solutions innovantes pour les entreprises ivoiriennes.",
+        "tags": [
+            "transformation numérique",
+            "Côte d'Ivoire",
+            "innovation",
+            "technologie",
+            "digital"
+        ]
+    },
+    {
+        "slug": "innovation-billetterie-nouvelles-technologies",
+        "title": "Innovation en billetterie : les nouvelles technologies",
+        "category": "innovation-billetterie",
+        "published_at": "2025-09-29",
+        "excerpt": "Les dernières innovations technologiques dans le domaine de la billetterie électronique.",
+        "author_name": "Marie Koné",
+        "content": "Le secteur de la billetterie électronique évolue rapidement avec l'introduction de nouvelles technologies. Les solutions modernes intègrent désormais l'intelligence artificielle pour la gestion des événements, la blockchain pour la sécurité des transactions, et l'IoT pour le contrôle d'accès. Ces innovations permettent une meilleure expérience utilisateur, une réduction des fraudes et une optimisation des processus de vente. Les entreprises qui adoptent ces technologies gagnent en efficacité et en compétitivité sur le marché. BWAN TECHNOLOGIES développe des solutions de billetterie avancées pour les événements culturels et sportifs en Côte d'Ivoire.",
+        "tags": [
+            "billetterie",
+            "innovation",
+            "technologie",
+            "événements",
+            "contrôle d'accès"
+        ]
+    },
+    {
+        "slug": "developpement-mobile-tendances-2024",
+        "title": "Développement mobile : tendances 2024",
+        "category": "actualites-tic",
+        "published_at": "2025-09-24",
+        "excerpt": "Les principales tendances du développement mobile à suivre en 2024.",
+        "author_name": "Kouassi N'Guessan",
+        "content": "Le développement mobile continue d'évoluer avec de nouvelles technologies et approches. Les applications cross-platform gagnent en popularité grâce à des frameworks comme Flutter et React Native. L'intégration de l'IA et du machine learning dans les apps mobiles devient standard. Les technologies émergentes comme la réalité augmentée et la 5G ouvrent de nouvelles possibilités. La sécurité et la protection des données restent des priorités absolues avec l'adoption de nouvelles normes de chiffrement et d'authentification biométrique. Notre équipe chez BWAN TECHNOLOGIES maîtrise ces technologies pour créer des applications mobiles performantes.",
+        "tags": [
+            "développement mobile",
+            "applications",
+            "tendances",
+            "technologie",
+            "innovation"
+        ]
+    },
+    {
+        "slug": "evenements-tech-cote-ivoire-ecosysteme-croissance",
+        "title": "Événements tech en Côte d'Ivoire : un écosystème en croissance",
+        "category": "evenements-tech",
+        "published_at": "2025-09-19",
+        "excerpt": "Panorama des événements technologiques qui façonnent l'écosystème tech ivoirien.",
+        "author_name": "Fatou Traoré",
+        "content": "Panorama des événements technologiques qui façonnent l'écosystème tech ivoirien.",
+        "tags": []
+    },
+    {
+        "slug": "securite-informatique-bonnes-pratiques-pme",
+        "title": "Sécurité informatique : bonnes pratiques pour les PME",
+        "category": "transformation-numerique",
+        "published_at": "2025-09-14",
+        "excerpt": "Guide des bonnes pratiques de sécurité informatique pour les petites et moyennes entreprises.",
+        "author_name": "Jean-Baptiste Yao",
+        "content": "Guide des bonnes pratiques de sécurité informatique pour les petites et moyennes entreprises.",
+        "tags": []
+    },
+    {
+        "slug": "impact-numerique-economie-ivoirienne",
+        "title": "Impact du numérique sur l'économie ivoirienne",
+        "category": "actualites-tic",
+        "published_at": "2025-09-09",
+        "excerpt": "Analyse de l'impact des technologies numériques sur l'économie de la Côte d'Ivoire.",
+        "author_name": "Aminata Diabaté",
+        "content": "Analyse de l'impact des technologies numériques sur l'économie de la Côte d'Ivoire.",
+        "tags": []
+    },
+    {
+        "slug": "intelligence-artificielle-applications-pratiques-entreprise",
+        "title": "Intelligence artificielle : applications pratiques en entreprise",
+        "category": "innovation-billetterie",
+        "published_at": "2025-09-04",
+        "excerpt": "Découvrez comment l'IA peut transformer les processus d'entreprise en Côte d'Ivoire.",
+        "author_name": "BWAN TECHNOLOGIES",
+        "content": "Découvrez comment l'IA peut transformer les processus d'entreprise en Côte d'Ivoire.",
+        "tags": []
+    },
+    {
+        "slug": "cloud-computing-avantages-entreprises-ivoiriennes",
+        "title": "Cloud computing : avantages pour les entreprises ivoiriennes",
+        "category": "transformation-numerique",
+        "published_at": "2025-08-30",
+        "excerpt": "Les bénéfices du cloud computing pour les entreprises en Côte d'Ivoire.",
+        "author_name": "BWAN TECHNOLOGIES",
+        "content": "Les bénéfices du cloud computing pour les entreprises en Côte d'Ivoire.",
+        "tags": []
+    },
+    {
+        "slug": "blockchain-opportunites-afrique-ouest",
+        "title": "Blockchain : opportunités pour l'Afrique de l'Ouest",
+        "category": "innovation-billetterie",
+        "published_at": "2025-08-20",
+        "excerpt": "Les potentialités de la blockchain pour le développement économique en Afrique de l'Ouest.",
+        "author_name": "BWAN TECHNOLOGIES",
+        "content": "Les potentialités de la blockchain pour le développement économique en Afrique de l'Ouest.",
+        "tags": []
+    },
+    {
+        "slug": "e-gouvernement-modernisation-services-publics",
+        "title": "E-gouvernement : modernisation des services publics",
+        "category": "actualites-tic",
+        "published_at": "2025-08-15",
+        "excerpt": "Comment l'e-gouvernement améliore les services publics en Côte d'Ivoire.",
+        "author_name": "BWAN TECHNOLOGIES",
+        "content": "Comment l'e-gouvernement améliore les services publics en Côte d'Ivoire.",
+        "tags": []
+    }
+]
